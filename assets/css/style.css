@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-weight: 300;
+}
+
+header {
+    width: 80em;
+    height: 48em;
+    background-image: url("../imgs/bg-header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 5em;
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+}
+
+header h1 {
+    line-height: 1.7em;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+main {
+    display: table;
+    align-items: center;
+    width: 80em;
+    margin: auto;
+}
+
+main .contenido {
+    height: 21rem;
+    display: flow-root;
+}
+
+main .contenido p {
+    float: left;
+    width: 40%;
+    margin-top: 7%;
+    margin-left: 10%;
+    font-size: 1em;
+}
+
+main .contenido img {
+    float: right;
+    height: 70%;
+    margin-top: 4%;
+    margin-right: 10%;
+}
+
+main .caracteristicas {
+    background-color: #221f16;
+    height: 21rem;
+    display: flow-root;
+    text-align: center;
+}
+
+main .caracteristicas h2 {
+    margin-top: 1.5em;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+main .caracteristica {
+    width: 30%;
+    float: left;
+    padding: 1%;
+}
+
+main .caracteristica i {
+    padding: 0.5em;
+    font-size: 3.5em;
+}
+
+main .caracteristica p {
+    font-size: 1.5em;
+}
+
+main .fotos {
+    height: 21rem;
+    text-align: center;
+}
+
+main .foto {
+    display: inline-block;
+    width: 19.75em;
+    height: 12.5em;
+    padding: 1em;
+    margin-top: 3em;
+}
+
+footer {
+    width: 80em;
+    height: 4em;
+    background-color: #2b2720;
+    margin: auto;
+}
+
+footer span {
+    display: block;
+    padding: 1.25em;
+    text-align: center;
+    font-size: 1.25em;
+}
